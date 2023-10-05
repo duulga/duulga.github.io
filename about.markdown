@@ -10,10 +10,13 @@ title: About
 *   BE Information security, Soon Chun Hyang University (2021~2023)
 *   ME Mobility Convergence Security, Soon Chun Hyang University (2023~)
 
-### Certificates
+### Awards
 
 *   SCH Summa Cum Laude (tntjr whfdjqwk)
-*   Ushuu awnaa 
+
+### Certificates
+
+*   Awahjagaa
 
 ### Experience
 
