@@ -1,14 +1,30 @@
 <!doctype html>
-<html>
+<html lang="{{ site.lang | default: "en-US" }}">
   <head>
     <meta charset="utf-8">
-    <title>{{ page.title }}</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="/assets/css/styles.css">
+    {% include head-custom.html %}
     {% feed_meta %}
-    {% seo %}
+{% seo %}
   </head>
+
   <body>
-    {% include navigation.html %}
-    {{ content }}
+    <header>
+        <div class="container">
+            {% include navigation.html %}
+          <a id="a-title" href="{{ '/' | relative_url }}">
+            <h1>{{ site.title }}</h1>
+          </a>
+          <h2>{{ site.description }}</h2>
+        </div>
+      </header>
+      <div class="container">
+        <section id="main_content">
+          {{ content }}
+        </section>
+      </div>
+    
   </body>
 </html>

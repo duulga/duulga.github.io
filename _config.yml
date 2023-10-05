@@ -1,30 +1,8 @@
-collections:
-  authors:
-    output: true 
-
-defaults:
-  - scope:
-      path: ""
-      type: "authors"
-    values:
-      layout: "author"
-  - scope:
-      path: ""
-      type: "posts"
-    values:
-      layout: "post"
-  - scope:
-      path: ""
-    values:
-      layout: "default"
 
 plugins:
   - jekyll-feed
   - jekyll-sitemap
   - jekyll-seo-tag
-  - jekyll-remote-theme
 
-remote_theme: pages-themes/hacker@v0.2.0
-
-title: "duulga.github.io"
-description: "Duulga's portfolio/blogging website "
+title: ddumwamu|prab
+description: ddumwamu's portfolio|blogging website
